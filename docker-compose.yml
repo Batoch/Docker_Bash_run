@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  shell-runner:
+      build: .
+          volumes:
+                - ./start.sh:/mnt/start.sh:ro
